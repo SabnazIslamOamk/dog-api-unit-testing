@@ -3,7 +3,7 @@ import express, { Request, Response, NextFunction, Express } from 'express';
 import cors from 'cors';
 import dogRoutes from './routes/dogRoutes';
 
-const app: Express = express();
+export const app: Express = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
